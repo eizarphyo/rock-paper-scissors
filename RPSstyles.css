@@ -1,0 +1,98 @@
+@font-face {
+    font-family: Alkatra;
+    src: url(fonts/Alkatra-VariableFont_wght.ttf);
+}
+
+body {
+    font-family: Alkatra;
+    background: linear-gradient(34deg, orange, gold);
+    text-align: center;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.parent-container {
+    margin: auto;
+    width: 90vw;
+}
+
+.images-container {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.child-container {
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+}
+
+.img-box {
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.logo-img {
+    display: block;
+    width: 160px;
+}
+
+.ply-img {
+    transform: rotate(80deg);
+    width: 100px;
+}
+
+.comp-img {
+    transform: rotate(-80deg);
+    width: 100px;
+}
+
+.show {
+    display: none;
+}
+
+button {
+    width: 83px;
+    height: 40px;
+    border-radius: 10px;
+    margin-right: 15px;
+    font-family: Alkatra;
+    border: 1px solid peru;
+    background-color: darkgoldenrod;
+    box-shadow: 0 10px 20px rgb(0, 0, 0, 0.19);
+}
+
+.btn-box {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.rps-btn {
+    width: 83px;
+    height: 40px;
+    border-radius: 10px;
+    margin-right: 15px;
+    font-family: Alkatra;
+    border: 1px solid peru;
+    background-color: darkgoldenrod;
+    box-shadow: 0 10px 20px rgb(0, 0, 0, 0.19);
+}
+
+.start-btn {
+    font-size: 18px;
+}
+
+.restart-btn {
+    display: none;
+}
+
+button:hover {
+    cursor:pointer;
+    background-color: goldenrod;
+}

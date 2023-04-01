@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="images/rock-paper-scissors.png" />
+    <title>Rock Paper Scissor Game</title>
+
+    <link rel="stylesheet" href="RPSstyles.css" />
+  </head>
+  <body>
+    <main>
+      <div class="parent-container">
+        <h2>Welcome to Rock-Paper-Scissors Game!</h2>
+
+        <p>Press start button to start the game.</p>
+
+        <div class="child-container">
+          <div class="img-box">
+            <img class="ply-img show" src="images/rock.png" alt="" />
+
+            <img class="comp-img show" src="images/rock.png" alt="" />
+
+            <img
+              class="logo-img hide"
+              src="images/rock-paper-scissors.png"
+              alt=""
+            />
+          </div>
+
+          <div class="btn-box">
+            <button class="rps-btn show" onclick="btnPressed('rock')">
+              ROCK
+            </button>
+            <button class="rps-btn show" onclick="btnPressed('paper')">
+              PAPER
+            </button>
+            <button class="rps-btn show" onclick="btnPressed('scissors')">
+              SCISSORS
+            </button>
+            <button class="restart-btn" onclick="restart()">Restart</button>
+            <button class="start-btn hide" onclick="start()">Start</button>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
